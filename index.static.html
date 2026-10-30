@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aura Athletes — przygotowanie motoryczne, trening medyczny, diagnostyka VALD</title>
+  <meta name="description" content="Pomagam sportowcom rozwijać potencjał fizyczny, a osobom zmagającym się z bólem i ograniczeniami ruchowymi — stopniowo odbudowywać sprawność. Ustrzyki Dolne, Lesko, Sanok.">
+  <meta name="theme-color" content="#000000">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aura Athletes">
+  <meta property="og:description" content="Indywidualne podejście. Przemyślany proces. Postępy, które można monitorować.">
+  <meta property="og:image" content="assets/logo/og-image.jpg">
+  <meta property="og:locale" content="pl_PL">
+
+  <link rel="icon" href="assets/logo/icon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/logo/icon-180.png">
+
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Aura Athletes",
+    "description": "Przygotowanie motoryczne, trening medyczny i diagnostyka z wykorzystaniem technologii VALD Performance.",
+    "telephone": "+48791030123",
+    "foundingDate": "2024",
+    "areaServed": ["Ustrzyki Dolne", "Lesko", "Sanok"],
+    "sameAs": ["https://www.instagram.com/aurathletes/"]
+  }
+  </script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Przejdź do treści</a>
+
+<!-- ============ NAGŁÓWEK ============ -->
+<header class="site-header" id="top">
+  <div class="site-header__inner">
+    <a class="brand" href="#top" aria-label="Aura Athletes — strona główna">
+      <img src="assets/logo/aura-logo-480.webp" width="480" height="513" alt="Aura Athletes">
+    </a>
+
+    <nav class="nav" aria-label="Główna nawigacja">
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+        <span class="nav__toggle-open">Menu</span>
+        <span class="nav__toggle-close">Zamknij</span>
+      </button>
+      <div class="nav__panel" id="nav-list">
+        <ul class="nav__list">
+          <li><a href="#obszary">Obszary pracy</a></li>
+          <li><a href="#proces">Jak pracuję</a></li>
+          <li><a href="#o-mnie">O mnie</a></li>
+          <li><a href="#cennik">Cennik</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <a class="nav__phone" href="tel:+48791030123">+48 791 030 123</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ 01 HERO ============ -->
+  <section class="hero" aria-label="Aura Athletes">
+    <div class="hero__visual">
+      <!-- łuk z logo: zanika ku górze i dołowi jak w oryginalnym znaku -->
+      <svg class="hero__arc" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="arcGold" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#d4ac3e" stop-opacity="0" />
+            <stop offset=".24" stop-color="#d4ac3e" />
+            <stop offset=".76" stop-color="#d4ac3e" />
+            <stop offset="1" stop-color="#d4ac3e" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        <circle cx="50" cy="50" r="49.5" />
+      </svg>
+      <div class="hero__frame">
+        <video class="hero__video" autoplay muted loop playsinline preload="auto"
+               poster="assets/video/poster-720.jpg" aria-hidden="true">
+          <source src="assets/video/hero-1080.mp4" type="video/mp4" media="(min-width: 1024px)">
+          <source src="assets/video/hero-720.mp4" type="video/mp4">
+        </video>
+      </div>
+      <button class="hero__pause" type="button" aria-pressed="false">Pauza</button>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow">Przygotowanie motoryczne · Trening medyczny · Diagnostyka</p>
+      <h1 class="hero__title">
+        <span>Indywidualne podejście.</span>
+        <span>Przemyślany proces.</span>
+        <span class="is-gold">Postępy, które można monitorować.</span>
+      </h1>
+      <div class="hero__actions">
+        <a class="btn btn--gold" href="#kontakt">Zacznij od swojego celu</a>
+        <a class="btn btn--line" href="#cennik">Cennik</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02 INTRO ============ -->
+  <section class="section intro" aria-label="Wprowadzenie">
+    <div class="container">
+      <p class="intro__lead reveal">Pomagam sportowcom rozwijać potencjał fizyczny, a osobom zmagającym się z bólem i ograniczeniami ruchowymi — stopniowo odbudowywać sprawność.</p>
+      <div class="intro__body reveal">
+        <p>Łączę programowanie treningowe, przygotowanie motoryczne, trening siłowy i trening medyczny z obiektywną diagnostyką wykorzystującą technologię VALD Performance.</p>
+        <p>Pracuję zarówno z zawodnikami, którzy chcą osiągać lepsze wyniki sportowe, jak i z osobami wracającymi do aktywności po urazach, operacjach i dłuższych przerwach w treningu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 OBSZARY PRACY ============ -->
+  <section class="section areas" id="obszary" aria-labelledby="obszary-title">
+    <div class="container">
+      <p class="eyebrow">Obszary pracy</p>
+      <h2 class="visually-hidden" id="obszary-title">Obszary pracy</h2>
+
+      <!-- Przygotowanie motoryczne -->
+      <article class="area reveal">
+        <figure class="area__media">
+          <img src="assets/img/motoryka-1080.webp"
+               srcset="assets/img/motoryka-640.webp 640w, assets/img/motoryka-1080.webp 1080w, assets/img/motoryka-1600.webp 1600w"
+               sizes="(min-width: 960px) 44vw, 100vw"
+               width="1080" height="1351" loading="lazy" decoding="async"
+               alt="Trener asekuruje zawodnika wykonującego przysiad ze sztangą">
+        </figure>
+        <div class="area__text">
+          <h3 class="h2">Przygotowanie motoryczne i&nbsp;rozwój sportowy</h3>
+          <p>Prowadzę zawodników indywidualnie, uwzględniając wymagania ich sportu, poziom zaawansowania i cele treningowe.</p>
+          <p>Pracuję między innymi z zawodnikami trójboju siłowego, sportów walki oraz piłki nożnej. Wspieram również osoby uprawiające inne dyscypliny, które chcą poprawić siłę, dynamikę, sprawność i jakość treningu.</p>
+          <p>Tworzę i realizuję programy treningowe dopasowane do zawodnika — od rozwoju podstawowych zdolności motorycznych po bardziej zaawansowane przygotowanie fizyczne.</p>
+          <ul class="tags" aria-label="Dyscypliny">
+            <li>Trójbój siłowy</li>
+            <li>Sporty walki</li>
+            <li>Piłka nożna</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Trening medyczny -->
+      <article class="area area--flip reveal">
+        <figure class="area__media">
+          <img src="assets/img/medyczny-1080.webp"
+               srcset="assets/img/medyczny-640.webp 640w, assets/img/medyczny-1080.webp 1080w"
+               sizes="(min-width: 960px) 44vw, 100vw"
+               width="1080" height="1920" loading="lazy" decoding="async"
+               alt="Trener ocenia zakres ruchu w stawie kolanowym podopiecznej leżącej na kozetce">
+        </figure>
+        <div class="area__text">
+          <h3 class="h2">Trening medyczny i&nbsp;odbudowa sprawności</h3>
+          <p>Ból, uraz lub operacja mogą znacząco ograniczyć możliwości ruchowe i utrudnić powrót do codziennej aktywności czy sportu.</p>
+          <p>W swojej pracy pomagam stopniowo odbudowywać siłę, tolerancję na obciążenia i sprawność funkcjonalną. Dobieram ćwiczenia oraz ich intensywność do aktualnych możliwości danej osoby, etapu powrotu do aktywności i zaleceń dotyczących dalszego postępowania.</p>
+          <p>Pracuję z osobami z dolegliwościami bólowymi, po operacjach kręgosłupa i kolana, rekonstrukcji więzadła krzyżowego przedniego (ACL), szyciu łąkotki, a także z problemami dotyczącymi barków i stawów skokowych.</p>
+          <ul class="tags" aria-label="Z czym pracuję">
+            <li>Kręgosłup</li>
+            <li>Kolano</li>
+            <li>ACL</li>
+            <li>Łąkotka</li>
+            <li>Barki</li>
+            <li>Stawy skokowe</li>
+          </ul>
+          <p>W zależności od sytuacji uzupełniam proces rehabilitacji odpowiednio dobranym treningiem siłowym i funkcjonalnym. Celem jest odzyskiwanie sprawności i przygotowanie organizmu do coraz większych wymagań — od codziennych czynności po powrót do sprawności i sportu.</p>
+        </div>
+      </article>
+
+      <!-- Diagnostyka -->
+      <article class="area reveal" id="diagnostyka">
+        <figure class="area__media">
+          <img src="assets/img/diagnostyka-1080.webp"
+               srcset="assets/img/diagnostyka-640.webp 640w, assets/img/diagnostyka-1080.webp 1080w, assets/img/diagnostyka-1600.webp 1600w"
+               sizes="(min-width: 960px) 44vw, 100vw"
+               width="1080" height="1620" loading="lazy" decoding="async"
+               alt="Zawodnik wykonuje wyskok na platformach dynamometrycznych, trener odczytuje wynik na tablecie">
+        </figure>
+        <div class="area__text">
+          <h3 class="h2">Diagnostyka, która wspiera decyzje treningowe</h3>
+          <p>Nie tylko oceniam, jak ktoś się porusza. Sprawdzam również, jakie możliwości fizyczne jest w stanie wykazać podczas testów diagnostycznych.</p>
+          <p>Wykorzystuję platformy dynamometryczne i dynamometr firmy VALD Performance, aby uzupełnić ocenę sprawności o obiektywne pomiary.</p>
+        </div>
+      </article>
+
+      <div class="metrics reveal">
+        <p class="metrics__intro">W zależności od zastosowanego urządzenia i protokołu testowego mogę oceniać między innymi:</p>
+        <ol class="metrics__list">
+          <li>
+            <h4>Siłę mięśniową</h4>
+            <p>Możliwości generowania siły przez wybrane grupy mięśniowe.</p>
+          </li>
+          <li>
+            <h4>Moc i dynamikę</h4>
+            <p>Zdolność do szybkiego rozwijania siły i wykonywania dynamicznych zadań ruchowych.</p>
+          </li>
+          <li>
+            <h4>Różnice między kończynami</h4>
+            <p>Wybrane asymetrie, które należy interpretować w kontekście całego obrazu funkcjonalnego.</p>
+          </li>
+          <li>
+            <h4>Parametry ruchu</h4>
+            <p>W tym wybrane charakterystyki wyskoku, lądowania, równowagi lub innych testowanych zadań.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="data reveal">
+        <figure class="data__media">
+          <img src="assets/img/tablet-1080.webp"
+               srcset="assets/img/tablet-640.webp 640w, assets/img/tablet-1080.webp 1080w"
+               sizes="(min-width: 960px) 30vw, 100vw"
+               width="1080" height="1920" loading="lazy" decoding="async"
+               alt="Tablet z wynikiem pomiaru siły w niutonach z dynamometru VALD">
+        </figure>
+        <div class="data__text">
+          <p>Pomiary wykorzystuję jako punkt wyjścia do planowania treningu, monitorowania zmian i weryfikowania efektów kolejnych etapów pracy.</p>
+          <p>W przypadku sportowców pozwalają lepiej ukierunkować przygotowanie fizyczne. U osób wracających do sprawności mogą stanowić istotne uzupełnienie oceny funkcjonalnej i procesu rehabilitacji.</p>
+          <blockquote class="pull">Sam wynik nie jest odpowiedzią na każde pytanie. Jego wartość wynika z właściwego doboru testu, interpretacji danych i przełożenia ich na konkretne działania.</blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 04 JAK PRACUJĘ ============ -->
+  <section class="section process" id="proces" aria-labelledby="proces-title">
+    <div class="container">
+      <p class="eyebrow">Proces</p>
+      <h2 class="h2 reveal" id="proces-title">Jak pracuję?</h2>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__no" aria-hidden="true">01</span>
+          <div>
+            <h3>Ocena i określenie celu</h3>
+            <p>Poznaję Twoje potrzeby, historię treningową, aktualne możliwości i ograniczenia. W zależności od celu wykorzystuję odpowiednie testy funkcjonalne i pomiary dynamometryczne.</p>
+          </div>
+        </li>
+        <li class="step reveal">
+          <span class="step__no" aria-hidden="true">02</span>
+          <div>
+            <h3>Programowanie treningowe</h3>
+            <p>Na podstawie zebranych informacji planuję proces. Dobieram ćwiczenia, objętość, intensywność i tempo progresji do celu oraz możliwości organizmu.</p>
+          </div>
+        </li>
+        <li class="step reveal">
+          <span class="step__no" aria-hidden="true">03</span>
+          <div>
+            <h3>Trening i systematyczna praca</h3>
+            <p>Realizujemy plan, rozwijając określone zdolności lub stopniowo odbudowując sprawność. Obciążenia dostosowuję do postępów, reakcji organizmu i aktualnego etapu procesu.</p>
+          </div>
+        </li>
+        <li class="step reveal">
+          <span class="step__no" aria-hidden="true">04</span>
+          <div>
+            <h3>Monitorowanie i modyfikacja planu</h3>
+            <p>Wykorzystuję obserwacje treningowe i — gdy jest to uzasadnione — powtarzane pomiary, aby ocenić zmiany i zaplanować kolejne etapy.</p>
+          </div>
+        </li>
+      </ol>
+
+      <p class="process__note reveal">Nie realizuję jednego schematu dla wszystkich. Plan powinien odpowiadać konkretnej osobie, jej celom i aktualnym możliwościom.</p>
+    </div>
+  </section>
+
+  <!-- ============ 05 DLA KOGO ============ -->
+  <section class="section audience" id="dla-kogo" aria-labelledby="dla-kogo-title">
+    <div class="container">
+      <p class="eyebrow">Dla kogo</p>
+      <h2 class="h2 reveal" id="dla-kogo-title">Dla kogo jest moja praca?</h2>
+
+      <ul class="audience__list">
+        <li class="reveal">
+          <h3>Sportowcy</h3>
+          <p>Którzy chcą poprawić przygotowanie fizyczne i rozwijać potencjał sportowy.</p>
+        </li>
+        <li class="reveal">
+          <h3>Osoby z dolegliwościami bólowymi</h3>
+          <p>Które chcą pracować nad sprawnością i tolerancją na ruch oraz obciążenia.</p>
+        </li>
+        <li class="reveal">
+          <h3>Osoby po operacjach i urazach</h3>
+          <p>Które odbudowują siłę i sprawność w ramach odpowiednio zaplanowanego procesu.</p>
+        </li>
+        <li class="reveal">
+          <h3>Osoby aktywne fizycznie</h3>
+          <p>Które chcą być silniejsze, sprawniejsze i lepiej przygotowane do codziennych wyzwań.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 06 O MNIE ============ -->
+  <section class="section about" id="o-mnie" aria-labelledby="o-mnie-title">
+    <div class="container about__grid">
+      <figure class="about__media reveal">
+        <img src="assets/img/portret-1080.webp"
+             srcset="assets/img/portret-640.webp 640w, assets/img/portret-1080.webp 1080w"
+             sizes="(min-width: 960px) 38vw, 100vw"
+             width="1080" height="1920" loading="lazy" decoding="async"
+             alt="Grzegorz Krawiec z tabletem podczas testów diagnostycznych na sali treningowej">
+      </figure>
+
+      <div class="about__text">
+        <p class="eyebrow">O mnie</p>
+        <h2 class="h2 reveal" id="o-mnie-title">Grzegorz Krawiec</h2>
+        <p class="about__role reveal">Trener przygotowania fizycznego</p>
+        <div class="reveal">
+          <p>Jestem trenerem przygotowania fizycznego. W swojej pracy łączę elementy treningu siłowego, przygotowania motorycznego i treningu medycznego.</p>
+          <p>Pracuję ze sportowcami reprezentującymi różne dyscypliny, w tym trójbój siłowy, sporty walki i piłkę nożną. Wspieram również osoby, które chcą poprawić swoją sprawność, odbudować siłę lub wrócić do aktywności po urazach i operacjach.</p>
+          <p>Podczas pracy z klientami korzystam z platform dynamometrycznych i dynamometru, które pomagają mi dokładniej ocenić siłę i możliwości fizyczne danej osoby. Dzięki temu mogę lepiej dopasować trening do Twoich potrzeb i na bieżąco sprawdzać postępy rehabilitacji.</p>
+          <p class="about__goal">Moim celem jest pomagać ludziom rozwijać możliwości fizyczne i świadomie pracować nad sprawnością.</p>
+        </div>
+
+        <div class="certs reveal">
+          <h3 class="certs__title">Kwalifikacje</h3>
+          <ul class="certs__list">
+            <li>
+              <button type="button" class="cert" data-cert="assets/cert/trening-medyczny.webp" data-w="1600" data-h="1127">
+                <span class="cert__name">Trening Medyczny Level 3</span>
+                <span class="cert__meta">Train Movement Academy</span>
+                <span class="cert__view">Zobacz</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="cert" data-cert="assets/cert/rehab-kolano.webp" data-w="1600" data-h="1126">
+                <span class="cert__name">Rehab Kolano — rehabilitacja kolana w&nbsp;realiach gabinetu i&nbsp;siłowni</span>
+                <span class="cert__meta">Strength Development · 2026</span>
+                <span class="cert__view">Zobacz</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="cert" data-cert="assets/cert/diagnostyka-trenerska.webp" data-w="1600" data-h="1162">
+                <span class="cert__name">Diagnostyka Trenerska</span>
+                <span class="cert__meta">A-game Athletic Performance · Wrocław 2023 · 15&nbsp;h</span>
+                <span class="cert__view">Zobacz</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="cert" data-cert="assets/cert/personal-trainer-vcc.webp" data-w="1600" data-h="1106">
+                <span class="cert__name">Personal Trainer</span>
+                <span class="cert__meta">Vocational Competence Certificate (VCC) · 2024</span>
+                <span class="cert__view">Zobacz</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 07 FILOZOFIA ============ -->
+  <section class="philosophy" aria-labelledby="filozofia-title">
+    <figure class="philosophy__media">
+      <img src="assets/img/druzyna-1400.webp"
+           srcset="assets/img/druzyna-800.webp 800w, assets/img/druzyna-1400.webp 1400w, assets/img/druzyna-2200.webp 2200w"
+           sizes="100vw"
+           width="1400" height="933" loading="lazy" decoding="async"
+           alt="Drużyna Aura Athletes w koszulkach z logo na sali treningowej">
+    </figure>
+    <div class="section container philosophy__text">
+      <h2 class="h2 reveal" id="filozofia-title">Trening oparty na wiedzy, danych i&nbsp;indywidualnym podejściu</h2>
+      <div class="philosophy__cols">
+        <p class="reveal">Wierzę, że skuteczna praca wymaga połączenia wiedzy, doświadczenia, odpowiednio dobranych metod treningowych i świadomego monitorowania postępów.</p>
+        <blockquote class="pull pull--large reveal">Technologia dostarcza danych. Programowanie treningowe pozwala nadać im kierunek. Systematyczna praca przekłada założenia na rozwój sprawności.</blockquote>
+        <p class="reveal">Niezależnie od tego, czy Twoim celem jest większa siła, lepsze wyniki sportowe czy powrót do aktywności po kontuzji, punktem wyjścia jest zrozumienie Twoich potrzeb i zaplanowanie właściwego procesu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 08 CENNIK ============ -->
+  <section class="section pricing" id="cennik" aria-labelledby="cennik-title">
+    <div class="container">
+      <p class="eyebrow">Cennik</p>
+      <h2 class="h2 reveal" id="cennik-title">Karnety treningowe</h2>
+
+      <div class="tabs" role="tablist" aria-label="Lokalizacja">
+        <button class="tab" role="tab" id="tab-ustrzyki" aria-controls="panel-ustrzyki" aria-selected="true">
+          <span class="tab__city">Ustrzyki Dolne</span><span class="tab__place">Studio</span>
+        </button>
+        <button class="tab" role="tab" id="tab-lesko" aria-controls="panel-lesko" aria-selected="false" tabindex="-1">
+          <span class="tab__city">Lesko</span><span class="tab__place">Basen</span>
+        </button>
+        <button class="tab" role="tab" id="tab-sanok" aria-controls="panel-sanok" aria-selected="false" tabindex="-1">
+          <span class="tab__city">Sanok</span><span class="tab__place">Energy</span>
+        </button>
+      </div>
+
+      <!-- Ustrzyki Dolne -->
+      <div class="panel" role="tabpanel" id="panel-ustrzyki" aria-labelledby="tab-ustrzyki">
+        <h3 class="panel__title">Ustrzyki Dolne · Studio</h3>
+        <div class="passes">
+          <div class="pass">
+            <h4 class="pass__title">Karnet jednoosobowy</h4>
+            <dl class="pass__rows">
+              <div><dt>1 trening</dt><dd>140 zł</dd></div>
+              <div><dt>4 treningi</dt><dd>525 zł</dd></div>
+              <div><dt>8 treningów</dt><dd>1&#8239;000 zł</dd></div>
+              <div><dt>12 treningów</dt><dd>1&#8239;450 zł</dd></div>
+              <div><dt>48 treningów</dt><dd>5&#8239;000 zł</dd></div>
+            </dl>
+          </div>
+          <div class="pass">
+            <h4 class="pass__title">Karnet dwuosobowy</h4>
+            <dl class="pass__rows">
+              <div><dt>1 trening</dt><dd>200 zł</dd></div>
+              <div><dt>4 treningi</dt><dd>720 zł</dd></div>
+              <div><dt>8 treningów</dt><dd>1&#8239;360 zł</dd></div>
+              <div><dt>12 treningów</dt><dd>1&#8239;900 zł</dd></div>
+              <div><dt>48 treningów</dt><dd>7&#8239;000 zł</dd></div>
+            </dl>
+          </div>
+          <div class="pass">
+            <h4 class="pass__title">Karnet trzyosobowy</h4>
+            <dl class="pass__rows">
+              <div><dt>1 trening</dt><dd>250 zł</dd></div>
+              <div><dt>4 treningi</dt><dd>920 zł</dd></div>
+              <div><dt>8 treningów</dt><dd>1&#8239;720 zł</dd></div>
+              <div><dt>12 treningów</dt><dd>2&#8239;400 zł</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lesko -->
+      <div class="panel" role="tabpanel" id="panel-lesko" aria-labelledby="tab-lesko">
+        <h3 class="panel__title">Lesko · Basen</h3>
+        <div class="passes">
+          <div class="pass">
+            <h4 class="pass__title">Karnet jednoosobowy</h4>
+            <dl class="pass__rows">
+              <div><dt>1 trening</dt><dd>120 zł</dd></div>
+              <div><dt>4 treningi</dt><dd>450 zł</dd></div>
+              <div><dt>8 treningów</dt><dd>850 zł</dd></div>
+              <div><dt>12 treningów</dt><dd>1&#8239;200 zł</dd></div>
+              <div><dt>48 treningów</dt><dd>4&#8239;000 zł</dd></div>
+            </dl>
+          </div>
+          <div class="pass">
+            <h4 class="pass__title">Karnet dwuosobowy</h4>
+            <dl class="pass__rows">
+              <div><dt>1 trening</dt><dd>150 zł</dd></div>
+              <div><dt>4 treningi</dt><dd>560 zł</dd></div>
+              <div><dt>8 treningów</dt><dd>1&#8239;050 zł</dd></div>
+              <div><dt>12 treningów</dt><dd>1&#8239;500 zł</dd></div>
+              <div><dt>48 treningów</dt><dd>5&#8239;000 zł</dd></div>
+            </dl>
+          </div>
+          <div class="pass">
+            <h4 class="pass__title">Karnet trzyosobowy</h4>
+            <dl class="pass__rows">
+              <div><dt>1 trening</dt><dd>200 zł</dd></div>
+              <div><dt>4 treningi</dt><dd>740 zł</dd></div>
+              <div><dt>8 treningów</dt><dd>1&#8239;400 zł</dd></div>
+              <div><dt>12 treningów</dt><dd>1&#8239;900 zł</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sanok -->
+      <div class="panel" role="tabpanel" id="panel-sanok" aria-labelledby="tab-sanok">
+        <h3 class="panel__title">Sanok · Energy</h3>
+        <div class="passes">
+          <div class="pass">
+            <h4 class="pass__title">Karnet jednoosobowy</h4>
+            <dl class="pass__rows">
+              <div><dt>1 trening</dt><dd>150 zł</dd></div>
+              <div><dt>4 treningi</dt><dd>560 zł</dd></div>
+              <div><dt>8 treningów</dt><dd>1&#8239;040 zł</dd></div>
+              <div><dt>12 treningów</dt><dd>1&#8239;450 zł</dd></div>
+              <div><dt>48 treningów</dt><dd>5&#8239;100 zł</dd></div>
+            </dl>
+          </div>
+          <div class="pass">
+            <h4 class="pass__title">Karnet dwuosobowy</h4>
+            <dl class="pass__rows">
+              <div><dt>1 trening</dt><dd>200 zł</dd></div>
+              <div><dt>4 treningi</dt><dd>720 zł</dd></div>
+              <div><dt>8 treningów</dt><dd>1&#8239;360 zł</dd></div>
+              <div><dt>12 treningów</dt><dd>1&#8239;900 zł</dd></div>
+              <div><dt>48 treningów</dt><dd>7&#8239;000 zł</dd></div>
+            </dl>
+          </div>
+          <div class="pass">
+            <h4 class="pass__title">Karnet trzyosobowy</h4>
+            <dl class="pass__rows">
+              <div><dt>1 trening</dt><dd>250 zł</dd></div>
+              <div><dt>4 treningi</dt><dd>920 zł</dd></div>
+              <div><dt>8 treningów</dt><dd>1&#8239;720 zł</dd></div>
+              <div><dt>12 treningów</dt><dd>2&#8239;400 zł</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <div class="services reveal">
+        <h3 class="services__title">Diagnostyka, plany i prowadzenie online</h3>
+        <p class="services__note">Niezależnie od lokalizacji</p>
+        <dl class="pass__rows services__rows">
+          <div><dt>Konsultacja diagnostyczna na platformach dynamometrycznych</dt><dd>400 zł</dd></div>
+          <div><dt>Konsultacja diagnostyczna + plan treningowy</dt><dd>400 zł</dd></div>
+          <div><dt>Plan treningowy</dt><dd>200 zł</dd></div>
+          <div><dt>Plan treningowy + 1 trening personalny</dt><dd>300 zł</dd></div>
+          <div><dt>Plan treningowy + 2 treningi personalne</dt><dd>430 zł</dd></div>
+          <div><dt>Plan treningowy + 3 treningi personalne</dt><dd>560 zł</dd></div>
+          <div><dt>Prowadzenie online</dt><dd>350 zł <small>/ miesiąc</small></dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 09 KONTAKT ============ -->
+  <section class="section contact" id="kontakt" aria-labelledby="kontakt-title">
+    <div class="container">
+      <p class="eyebrow">Kontakt</p>
+      <h2 class="contact__title reveal" id="kontakt-title">Zacznij od swojego celu.</h2>
+      <div class="contact__body reveal">
+        <p>Chcesz poprawić wyniki sportowe, rozwinąć siłę, sprawdzić swoje możliwości w testach diagnostycznych czy odbudować sprawność po urazie?</p>
+        <p>Skontaktuj się ze mną. Wspólnie określimy cel i zaplanujemy dalsze działania.</p>
+      </div>
+
+      <a class="contact__phone reveal" href="tel:+48791030123">+48&nbsp;791&nbsp;030&nbsp;123</a>
+
+      <ul class="contact__actions reveal">
+        <li><a class="btn btn--gold" href="tel:+48791030123">Zadzwoń</a></li>
+        <li><a class="btn btn--line" href="https://wa.me/48791030123" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a class="btn btn--line" href="sms:+48791030123">SMS</a></li>
+        <li><a class="btn btn--line" href="https://www.instagram.com/aurathletes/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+
+      <div class="contact__places reveal">
+        <h3>Gdzie trenujemy</h3>
+        <ul>
+          <li><strong>Ustrzyki Dolne</strong> Studio</li>
+          <li><strong>Lesko</strong> Basen</li>
+          <li><strong>Sanok</strong> Energy</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ STOPKA ============ -->
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <img class="site-footer__logo" src="assets/logo/aura-logo-480.webp" width="480" height="513" alt="Aura Athletes" loading="lazy">
+    <div class="site-footer__meta">
+      <p class="site-footer__est"><span>Est 2024</span></p>
+      <ul class="site-footer__links">
+        <li><a href="https://www.instagram.com/aurathletes/" target="_blank" rel="noopener">@aurathletes</a></li>
+        <li><a href="tel:+48791030123">+48 791 030 123</a></li>
+      </ul>
+      <p class="site-footer__copy">© 2026 Aura Athletes</p>
+    </div>
+    <span class="site-footer__glyph" lang="ja" aria-hidden="true">光</span>
+  </div>
+</footer>
+
+<!-- ============ BĄBELEK KONTAKTOWY ============ -->
+<div class="bubble" data-state="hidden">
+  <div class="bubble__menu" id="bubble-menu" hidden>
+    <a href="https://wa.me/48791030123" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="sms:+48791030123">SMS</a>
+    <a href="https://www.instagram.com/aurathletes/" target="_blank" rel="noopener">Instagram</a>
+  </div>
+  <button class="bubble__toggle" type="button" aria-expanded="false" aria-controls="bubble-menu">
+    <span class="bubble__label-open">Napisz</span>
+    <span class="bubble__label-close">Zamknij</span>
+  </button>
+</div>
+
+<!-- ============ PODGLĄD CERTYFIKATU ============ -->
+<dialog class="lightbox" aria-label="Podgląd certyfikatu">
+  <form method="dialog" class="lightbox__bar">
+    <p class="lightbox__caption"></p>
+    <button class="lightbox__close" type="submit">Zamknij</button>
+  </form>
+  <img class="lightbox__img" src="" alt="">
+</dialog>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

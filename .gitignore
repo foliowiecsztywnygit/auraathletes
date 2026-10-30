@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Environment
+.env
+.env.*
+*.local
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Source media archives (already optimized in public/assets/)
+*.zip
+1715.mp4
